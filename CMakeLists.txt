@@ -14,5 +14,4 @@ message(STATUS "MY_SOURCES = " $ENV{MY_SOURCES})
 
 # ---- EXECUTABLE ----
 
-# add_executable(samplecpp ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp $ENV{MY_SOURCES})
-
+add_executable(samplecpp ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp $ENV{MY_SOURCES})
