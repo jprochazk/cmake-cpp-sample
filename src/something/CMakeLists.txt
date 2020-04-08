@@ -1,8 +1,0 @@
-
-
-set(
-    ENV{MY_SOURCES}
-    $ENV{MY_SOURCES}
-    ${CMAKE_CURRENT_SOURCE_DIR}/a.cpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/b.cpp
-)
